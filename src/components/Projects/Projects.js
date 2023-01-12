@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import ignite from "../../Assets/Projects/Ignite.png";
+import cryptorobin from "../../Assets/Projects/cryptorobin.png";
+import sc from "../../Assets/Projects/sc.png";
+import ftwo from "../../Assets/Projects/F20.png";
 
 function Projects() {
   return (
@@ -23,70 +21,64 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={cryptorobin}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="CryptoRobin"
+              description="Made during DevNetwork Enterprise 2022 Hackathon, A mobile application that provides you with latest crypto
+              prices, top gainers/losers, Crypto charts and latest finance news.
+              Search for any Crypto and view its price and charts. Integrated Coinmarketcap's API for latest data. Made with
+              Kotlin."
+              ghLink="https://github.com/adityasimant/CryptoRobin"
+              demoLink="https://github.com/adityasimant/CryptoRobin/releases/download/V1/CryptoRobinV1.apk"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ftwo}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Freedom 20"
+              description="Made an mobile application for learning basic finance as a beginner where you can sign-up, follow people, share
+              your thoughts, ask questions, read books and learn from courses.
+              latest finance news directly from API and courses from zerodha varsity. Using Firebase user authentication and
+              Firebase realtime database and storage.
+              "
+              ghLink="https://github.com/adityasimant/Freedom20"
+              demoLink="https://github.com/adityasimant/Freedom20/releases/download/v1/freedom20.apk"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={sc}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Speech companion"
+              description="Made during civo hackathon 2021,its a react application with integrated speech recognition module which can
+              convert your text into speech and vice versa.
+              I Implemented fast and efficient javascript components and npm speech recognition module. Deployed using
+              kubernetes."
+              ghLink="https://github.com/balayokesh/speech-companion"
+              demoLink="https://balayokesh.github.io/speech-companion/"
+
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ignite}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Ignite"
+              description="Made during Courier Hacks: Feature focus program.
+              Ignite is an Mobile application that helps in setting smart notification system. Using Ignite you can send SMS/
+              Emails to your clients with the required messages. Stores all of your client's data.
+              I Integrated user authentication, improved the user interface and user experience, created and maintained the
+              database using Firebase, created and maintained the code repository on GitHub."
+              ghLink="https://github.com/HubGenixx/Ignite"
+              demoLink="https://github.com/HubGenixx/Ignite/releases/download/v1/Ignite.apk"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
