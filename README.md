@@ -1,6 +1,6 @@
 ## This is my personal Portfolio website
 
- You can visit my portfolio [here](adityasimant.github.io/Portfolio)!
+ You can visit my portfolio [here](https://adityasimant.github.io/Portfolio)
 
 
 ## Connect with me :
