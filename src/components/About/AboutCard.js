@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Aditya Simant </span>
             from <span className="purple"> Aurangabad, India.</span>
-            <br />I am pursuing BTech in Electronics and Telecommunication fron DIEMS Abad.
+            <br />I am pursuing BTech in Electronics and Telecommunication from DIEMS Abad.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
