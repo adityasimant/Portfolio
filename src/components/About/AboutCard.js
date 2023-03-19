@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Aditya Simant </span>
+            Hi Everyone, I am <span className="purple"><b>Aditya Simant </b></span>
             from <span className="purple"> Aurangabad, India.</span>
             <br />I am pursuing BTech in Electronics and Telecommunication from DIEMS Abad.
             <br />
@@ -16,7 +16,29 @@ function AboutCard() {
             I am skilled and experienced software developer with proficiency in Java, Kotlin, C++, JavaScript, Python, Golang, Bash, YAML, and various frameworks and tools such as ReactJs, Django, NodeJs, Docker, GitHub-Actions, and Git/GitHub. 
             <br />
             <br />
-            I have won multiple hackathon awards, including the International CIVO Hackathon and the Courier Hacks: Feature Focus 2022. He has mentored students, managed open-source organizations and code repositories, and collaborated with like-minded developers to create award-winning projects within a shorter timeframes.
+            <h2>Some of my achievements: </h2>
+              <br />
+              <h4><b>International CIVO Hackathon </b></h4>
+              <i>
+              <b className="purple">Winner</b>
+              </i>
+              <br />
+              - Collaborated with like minded developers. Learnt about Kubernetes, Docker, Speech Recognition modules, team management, YAML and Containerization
+
+              <br />
+              <br />
+              <h4><b>Courier Hacks: Feature focus </b></h4>
+              <i>
+              <b className="purple">Winner</b>
+              </i>
+              <br />
+
+              - Worked with other developers to create an award-winning mobile application in a shorter time frame while
+              meeting all required constraints. Learnt about Retrofit, Rest APIs, time management, open source and managed the open source organization and
+              code repository.
+
+
+
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

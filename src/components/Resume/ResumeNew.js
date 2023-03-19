@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://firebasestorage.googleapis.com/v0/b/local-3722d.appspot.com/o/aadisimtresume.pdf.pdf?alt=media&token=ccbf9341-36de-44e8-962a-15848576ae37";
+  "https://github.com/adityasimant/Portfolio/raw/main/src/Assets/aadisimtresume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
