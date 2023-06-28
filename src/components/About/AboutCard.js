@@ -18,7 +18,7 @@ function AboutCard() {
             <br />
             <h2>Some of my achievements: </h2>
               <br />
-              <h4><b>International CIVO Hackathon </b></h4>
+              <h4><b>1. International CIVO Hackathon </b></h4>
               <i>
               <b className="purple">Winner</b>
               </i>
@@ -27,7 +27,7 @@ function AboutCard() {
 
               <br />
               <br />
-              <h4><b>Courier Hacks: Feature focus </b></h4>
+              <h4><b>2. Courier Hacks: Feature focus </b></h4>
               <i>
               <b className="purple">Winner</b>
               </i>
@@ -36,8 +36,14 @@ function AboutCard() {
               - Worked with other developers to create an award-winning mobile application in a shorter time frame while
               meeting all required constraints. Learnt about Retrofit, Rest APIs, time management, open source and managed the open source organization and
               code repository.
-
-
+            <br />
+            <br />
+            <h4><b>3. DIEMS Tech-prastuti Presentation Champion</b></h4>
+              <i>
+              <b className="purple">Winner</b>
+              </i>
+              <br />
+              - Awarded for a highly interactive and informative presentation on Microservices: The Future of Software Development.
 
             <br />
             <br />

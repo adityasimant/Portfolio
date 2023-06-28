@@ -20,8 +20,6 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I'm <h1><b>Aditya Simant</b> </h1>
-              <br />
-              <h3>2x Global Hackathon winner and avid open surce contributer.</h3>
               <br />Bringing Ideas to Life Through Code: 
               <i>
                 <b className="purple"> Software Engineer and Tech Enthusiast. </b>
