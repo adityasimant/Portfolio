@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4ef0ce0c.css",
-    "main.js": "/Portfolio/static/js/main.e25b710f.js",
+    "main.js": "/Portfolio/static/js/main.16e6e61f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/F20.png": "/Portfolio/static/media/F20.54e1cf45c2852d548bc4.png",
     "static/media/sc.png": "/Portfolio/static/media/sc.9bb18a6d4f87db17b02a.png",
     "static/media/cryptorobin.png": "/Portfolio/static/media/cryptorobin.faae47e7d55afbf936e2.png",
+    "static/media/aadisimtresume.pdf": "/Portfolio/static/media/aadisimtresume.1ccafb782621ac17fcf6.pdf",
     "static/media/Ignite.png": "/Portfolio/static/media/Ignite.92a9aaedc1de1a2fbb32.png",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/aadisimtresume.pdf": "/Portfolio/static/media/aadisimtresume.6bb74100d32252851e85.pdf",
+    "static/media/Cypherithm.png": "/Portfolio/static/media/Cypherithm.400ac98116dfca709510.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/logo.png": "/Portfolio/static/media/logo.08334a3a5f6e7a8f4c64.png",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
     "main.4ef0ce0c.css.map": "/Portfolio/static/css/main.4ef0ce0c.css.map",
-    "main.e25b710f.js.map": "/Portfolio/static/js/main.e25b710f.js.map",
+    "main.16e6e61f.js.map": "/Portfolio/static/js/main.16e6e61f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ef0ce0c.css",
-    "static/js/main.e25b710f.js"
+    "static/js/main.16e6e61f.js"
   ]
 }
