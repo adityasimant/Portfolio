@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ignite from "../../Assets/Projects/Ignite.png";
 import cryptorobin from "../../Assets/Projects/cryptorobin.png";
+import Cypherithm from "../../Assets/Projects/Cypherithm.png";
 import sc from "../../Assets/Projects/sc.png";
 import ftwo from "../../Assets/Projects/F20.png";
 
@@ -19,6 +20,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Cypherithm}
+              isBlog={false}
+              title="Cypherithm"
+              description="Cypherithm is an Android library made in Java that provides encryption and decryption functionality for securing data in your Android applications. It simplifies the process of encrypting and decrypting data using popular encryption algorithms."
+              ghLink="https://github.com/adityasimant/Cypherithm"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cryptorobin}
