@@ -5,16 +5,13 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
 } from "react-icons/di";
 import {
-  SiPytorch,
   SiFirebase,
   SiAndroid,
-  SiNextdotjs,
   SiDocker,
 } from "react-icons/si";
 
