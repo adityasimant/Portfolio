@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4cc57c5f.css",
-    "main.js": "/Portfolio/static/js/main.4e164ad5.js",
+    "main.css": "/Portfolio/static/css/main.48fc8c3d.css",
+    "main.js": "/Portfolio/static/js/main.405277b5.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/myImg.png": "/Portfolio/static/media/myImg.9ebecf08adf8c8aa78df.png",
-    "static/media/F20.png": "/Portfolio/static/media/F20.54e1cf45c2852d548bc4.png",
-    "static/media/sc.png": "/Portfolio/static/media/sc.9bb18a6d4f87db17b02a.png",
-    "static/media/cryptorobin.png": "/Portfolio/static/media/cryptorobin.faae47e7d55afbf936e2.png",
-    "static/media/aadisimtresume.pdf": "/Portfolio/static/media/aadisimtresume.1ccafb782621ac17fcf6.pdf",
-    "static/media/Ignite.png": "/Portfolio/static/media/Ignite.92a9aaedc1de1a2fbb32.png",
-    "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/F20.png": "/Portfolio/static/media/F20.9faff68b32b2c1a2d5b4.png",
+    "static/media/awspic.png": "/Portfolio/static/media/awspic.6db26038a199667e962f.png",
+    "static/media/bloatfishpic.png": "/Portfolio/static/media/bloatfishpic.15a87fcee5831f02b43b.png",
+    "static/media/aadisimtresume.pdf": "/Portfolio/static/media/aadisimtresume.6450429559a421db3211.pdf",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/Cypherithm.png": "/Portfolio/static/media/Cypherithm.400ac98116dfca709510.png",
+    "static/media/cryptorobin.png": "/Portfolio/static/media/cryptorobin.37ac6c0b86d25bc2e083.png",
+    "static/media/Ignite.png": "/Portfolio/static/media/Ignite.2274ef5e9f44d1b4fc07.png",
+    "static/media/sc.png": "/Portfolio/static/media/sc.4f6924a77bb5bdd906d7.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/logo.png": "/Portfolio/static/media/logo.08334a3a5f6e7a8f4c64.png",
+    "static/media/Cypherithm.png": "/Portfolio/static/media/Cypherithm.afd72ce8265496f3af95.png",
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
-    "main.4cc57c5f.css.map": "/Portfolio/static/css/main.4cc57c5f.css.map",
-    "main.4e164ad5.js.map": "/Portfolio/static/js/main.4e164ad5.js.map",
+    "main.48fc8c3d.css.map": "/Portfolio/static/css/main.48fc8c3d.css.map",
+    "main.405277b5.js.map": "/Portfolio/static/js/main.405277b5.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cc57c5f.css",
-    "static/js/main.4e164ad5.js"
+    "static/css/main.48fc8c3d.css",
+    "static/js/main.405277b5.js"
   ]
 }
