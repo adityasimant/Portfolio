@@ -11,7 +11,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed with ReactJs</h3>
+          <h3>Developed by Aditya Simant</h3>
         </Col>
        
         <Col md="4" className="footer-body">
@@ -46,8 +46,11 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-           
           </ul>
+        </Col>
+        
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © 2023 AS</h3>
         </Col>
       </Row>
     </Container>

@@ -7,6 +7,8 @@ import cryptorobin from "../../Assets/Projects/cryptorobin.png";
 import Cypherithm from "../../Assets/Projects/Cypherithm.png";
 import sc from "../../Assets/Projects/sc.png";
 import ftwo from "../../Assets/Projects/F20.png";
+import aws from "../../Assets/Projects/awspic.png"
+import bloatfish from "../../Assets/Projects/bloatfishpic.png"
 
 function Projects() {
   return (
@@ -20,12 +22,31 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bloatfish}
+              isBlog={false}
+              title="BloatFish"
+              description="Currently working on BloatFish. BloatFish is a Javascript-based chess engine that uses minimax and Aplha-Beta puring for move calculations"
+              ghLink="https://github.com/adityasimant/BloatFish"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aws}
+              isBlog={false}
+              title="AWSctl"
+              description="Assisted in the development of a command-line tool to help manage multiple AWS CLI profiles including MFA authentication and session activation. Written in GoLang "
+              ghLink="https://github.com/adityasimant/awsctl"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Cypherithm}
               isBlog={false}
               title="Cypherithm"
-              description="Cypherithm is an Android library made in Java that provides encryption and decryption functionality for securing data in your Android applications. It simplifies the process of encrypting and decrypting data using popular encryption algorithms."
+              description="Cypherithm is an Android library made in Java that provides encryption and decryption functionality for securing data in your Android applications."
               ghLink="https://github.com/adityasimant/Cypherithm"
             />
           </Col>
@@ -34,12 +55,9 @@ function Projects() {
               imgPath={cryptorobin}
               isBlog={false}
               title="CryptoRobin"
-              description="Made during DevNetwork Enterprise 2022 Hackathon, A mobile application that provides you with latest crypto
-              prices, top gainers/losers, Crypto charts and latest finance news.
-              Search for any Crypto and view its price and charts. Integrated Coinmarketcap's API for latest data. Made with
-              Kotlin."
+              description="A mobile application that provides you with latest crypto prices, top gainers/losers, Crypto charts and latest finance news.
+              Search for any Crypto and view its price and charts. "
               ghLink="https://github.com/adityasimant/CryptoRobin"
-              demoLink="https://github.com/adityasimant/CryptoRobin/releases/download/V1/CryptoRobinV1.apk"
             />
           </Col>
 
@@ -49,12 +67,8 @@ function Projects() {
               isBlog={false}
               title="Freedom 20"
               description="Made an mobile application for learning basic finance as a beginner where you can sign-up, follow people, share
-              your thoughts, ask questions, read books and learn from courses.
-              latest finance news directly from API and courses from zerodha varsity. Using Firebase user authentication and
-              Firebase realtime database and storage.
-              "
+              your thoughts, ask questions, read books and learn from courses."
               ghLink="https://github.com/adityasimant/Freedom20"
-              demoLink="https://github.com/adityasimant/Freedom20/releases/download/v1/freedom20.apk"
             />
           </Col>
 
@@ -63,10 +77,8 @@ function Projects() {
               imgPath={sc}
               isBlog={false}
               title="Speech companion"
-              description="Made during civo hackathon 2021,its a react application with integrated speech recognition module which can
-              convert your text into speech and vice versa.
-              I Implemented fast and efficient javascript components and npm speech recognition module. Deployed using
-              kubernetes."
+              description="A react application with integrated speech recognition module which can
+              convert your text into speech and vice versa.Made Dockerfile and deployed using kubernetes."
               ghLink="https://github.com/balayokesh/speech-companion"
               demoLink="https://balayokesh.github.io/speech-companion/"
 
@@ -78,15 +90,13 @@ function Projects() {
               imgPath={ignite}
               isBlog={false}
               title="Ignite"
-              description="Made during Courier Hacks: Feature focus program.
-              Ignite is an Mobile application that helps in setting smart notification system. Using Ignite you can send SMS/
-              Emails to your clients with the required messages. Stores all of your client's data.
-              I Integrated user authentication, improved the user interface and user experience, created and maintained the
-              database using Firebase, created and maintained the code repository on GitHub."
+              description="Ignite is an Mobile application that helps in setting smart notification system. Using Ignite you can send SMS/
+              Emails to your clients with the required messages."
               ghLink="https://github.com/HubGenixx/Ignite"
-              demoLink="https://github.com/HubGenixx/Ignite/releases/download/v1/Ignite.apk"
             />
           </Col>
+
+
 
 
         </Row>

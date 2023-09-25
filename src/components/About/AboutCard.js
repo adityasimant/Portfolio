@@ -8,15 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Aditya Simant </span>
-            from <span className="purple"> Aurangabad, India.</span>
-            <br />I am pursuing BTech in Electronics and Telecommunication from DIEMS Abad.
-            <br />
-            <br />
-            I am skilled and experienced software developer with proficiency in Java, Kotlin, C++, JavaScript, Python, Golang, Bash, YAML, and various frameworks and tools such as ReactJs, Django, NodeJs, Docker, GitHub-Actions, and Git/GitHub. 
-            <br />
-            <br />
-            <h2>Some of my achievements: </h2>
+            
+            
               <br />
               <h4><b>1. International CIVO Hackathon </b></h4>
               <i>

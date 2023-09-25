@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/myImg.png";
 import Tilt from "react-parallax-tilt";
+import ResumeNew from "../Resume/ResumeNew";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -20,29 +21,19 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I'm <h1><b>Aditya Simant</b> </h1>
-              <br />Bringing Ideas to Life Through Code: 
-              <i>
-                <b className="purple"> Software Engineer and Tech Enthusiast. </b>
-              </i>
+
+              <br />
+              I am currently pursuing my bachlor's in Electronics and Telecommunication Engineering from DIEMS, Aurangabad. I have a passion for <span className="purple" >building high-quality software applications.</span> I have experience in a variety of programming languages and Frameworks.
+
               <br />
               <br />
-              Full stack mobile and web developer with a passion for building high-quality software applications. Experienced in a variety of programming languages including &nbsp;
-              <i>
-                <b className="purple">C++, Java, Python, Javascript and Kotlin </b>
-              </i>
-              and Frameworks including 
-              <i>
-                <b className="purple">ReactJs, Django, NodeJs, Tailwind CSS, Bootstrap, etc. </b>
-              </i>
-              <br />
-              <br />
-              In addition to my development skills, I am also an avid open source contributor and DevOps enthusiast. I enjoy collaborating with other developers and using the latest tools and techniques to improve the efficiency and reliability of software systems. I am always looking for new challenges and opportunities to grow as a developer and make a positive impact on the software industry. 
-              
+              In addition to my development skills, I am also an <span className="purple" >avid open source contributor and DevOps enthusiast.</span> I enjoy collaborating with other developers and using the latest tools and techniques to improve the efficiency and reliability of software systems. I am always looking for new challenges and opportunities to grow as a developer and make a positive impact on the software industry.
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" style={{ maxHeight: "350px" }}/>
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ maxHeight: "350px" }} />
             </Tilt>
           </Col>
         </Row>
@@ -94,6 +85,8 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <ResumeNew />
+            <h7>Contact: adityasimant88@gmail.com</h7>
           </Col>
         </Row>
       </Container>

@@ -13,7 +13,13 @@ import {
   SiFirebase,
   SiAndroid,
   SiDocker,
+  SiKubernetes
 } from "react-icons/si";
+import {
+  FaAws
+} from "react-icons/fa";
+
+
 
 function Techstack() {
   return (
@@ -47,6 +53,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        < FaAws/>
       </Col>
     </Row>
   );
