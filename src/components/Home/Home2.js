@@ -23,7 +23,7 @@ function Home2() {
               I'm <h1><b>Aditya Simant</b> </h1>
 
               <br />
-              I am currently pursuing my bachlor's in Electronics and Telecommunication Engineering from DIEMS, Aurangabad. I have a passion for <span className="purple" >building high-quality software applications.</span> I have experience in a variety of programming languages and Frameworks.
+              I am currently working as <span className="purple">Software Development Intern</span>  at Metapointer, Hyderabad, IN. I have a passion for building high-quality software applications. I have experience in a variety of programming languages and Frameworks.
 
               <br />
               <br />

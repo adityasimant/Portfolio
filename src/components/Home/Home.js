@@ -27,9 +27,9 @@ function Home() {
                 <spam className="purple "  > Software Engineer and Tech Enthusiast. </spam>
               </p>
               <div style={{ textAlign: "left", marginLeft: "30%" }}>
+                <li>Software Development Intern @Metapointer</li>
                 <li>Head of Technical Department @IETE-DIEMS Student Forum</li>
                 <li>2x Global Hackathon winner</li>
-                <li>Software Developer</li>
                 <li>Exploring Cloud Native</li>
 
               </div>

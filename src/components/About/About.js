@@ -57,7 +57,7 @@ function About() {
             Mobile Dev: Android
             </h3>
             <p style={{textAlign: "left"}}>
-            Have developed 20+ mobile applications for various challenges and use cases including an Android library for Excryption & Decryption.
+            Have developed variety of mobile applications for various challenges using Kotlin, Java and toolkits like Jetpack compose. 
             </p>
 
             <br />
